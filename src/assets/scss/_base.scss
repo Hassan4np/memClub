@@ -158,13 +158,13 @@ input[type=number] {
 
 
 .btn {
-    --bs-btn-padding-x: 20px !important;
-    --bs-btn-padding-y: 7px !important;
-    --bs-btn-color: #0D0D0C !important;
+    --bs-btn-padding-x: 45px !important;
+    --bs-btn-padding-y: 23px !important;
+    --bs-btn-color: #12192D !important;
     --bs-btn-border-width: 1px !important;
-    --bs-btn-border-color: #F8F709 !important;
-    --bs-btn-font-size: 18px !important;
-    --bs-btn-border-radius: 100px !important;
+    --bs-btn-border-color: #2F343C   !important;
+    --bs-btn-font-size: 16px !important;
+    --bs-btn-border-radius: 32px !important;
     display: inline-flex !important;
     align-items: center;
     justify-content: center;
@@ -228,11 +228,12 @@ input[type=number] {
     }
 }
 
-@media (min-width:1580px) {
+@media (min-width:1700px) {
     .container {
-        max-width: 1488px
+        max-width: 1532px
     }
 }
+
 .common-padding{
     margin-top: 150px;
     margin-bottom: 150px;
