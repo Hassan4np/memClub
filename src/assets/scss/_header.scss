@@ -1,6 +1,8 @@
 .header{
+    position: absolute;
+    width: 100%;
     &-nav{
-        padding: 61px;
+        padding: 61px 0px;
         &-logo{
             width: 347px;
             height: 50px;

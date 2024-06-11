@@ -1,0 +1,22 @@
+.menuclub{
+    padding-bottom: 140px;
+    &-heading{
+        h1 {
+            background:  linear-gradient(92deg, #D2D2D7 27.5%, #A4A3AA 87.08%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 32px;
+        }
+        p{
+            @include font-18;
+            line-height: 160%;
+        }
+
+    }
+    &-cards{
+        border: 1px solid #3E4962;
+        border-radius: 22px;
+        padding: 46px 40px;
+    }
+}
