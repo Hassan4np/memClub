@@ -1,0 +1,9 @@
+.work {
+    &-wrapper {
+        border-radius: 32px;
+        border: 1px solid #060813;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(153, 153, 153, 0.04) 100%);
+        backdrop-filter: blur(14.5px);
+        padding: 90px 84px 119px 90px;
+    }
+}
