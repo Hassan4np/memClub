@@ -41,8 +41,8 @@ export default function MemuClub() {
            <h3 className="mb-2 md-mb-4">{item.title}</h3>
            <p>{item.des}</p>
            <div className="d-flex align-items-center mt-auto">
-              <button>Read more</button>
-              <a href="#" className="d-flex align-items-center "><svg width="27" height="20" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <button className="btn-card">Read more</button>
+              <a href="#" className="d-flex align-items-center link-item "><svg width="27" height="20" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M18.3486 6.07811L18.3431 14.8718L21.8017 14.8788L21.8315 0.161358L7.11404 0.131604L7.10704 3.5902L15.9007 3.62024L0.944573 18.516L3.39252 20.9739L18.3486 6.07811Z" fill="white"/>
               </svg>
             </a>

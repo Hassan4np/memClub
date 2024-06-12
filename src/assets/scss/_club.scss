@@ -62,38 +62,39 @@
             margin-bottom: 60px;
         }
 
-        button {
-            transition: .5s ease-in-out;
-            color: $white;
-            font-size: 23px;
-            line-height: 150%;
-            border-radius: 37px;
-            border: 1px solid #3E4962;
-            background-color: $bg;
-            width: 85%;
-            &:hover{
-                background: rgba(36, 40, 56, 0.80);
-            }
-            
-        }
-
-        a {
-            --width: 58px;
-            width: var(--width);
-            height: var(--width);
-            background-color: $bg;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border: 1px solid #3E4962;
-            svg{
-                width: 27px;
-                height: 20px;
-            }
-            
-            
-        }
+       
 
     }
+}
+
+.btn-card {
+    transition: .5s ease-in-out;
+    color: $white;
+    font-size: 23px;
+    line-height: 150%;
+    border-radius: 37px;
+    border: 1px solid #3E4962;
+    background-color: $bg;
+    width: 85%;
+    &:hover{
+        background: rgba(36, 40, 56, 0.80);
+    }
+    
+}
+.link-item {
+    --width: 58px;
+    width: var(--width);
+    height: var(--width);
+    background-color: $bg;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3E4962;
+    svg{
+        width: 27px;
+        height: 20px;
+    }
+    
+    
 }

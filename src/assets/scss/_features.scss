@@ -1,11 +1,59 @@
 .feature {
+    margin-bottom: 218px;
     &-title {
-            @include font-148 ;
-            background:  linear-gradient(92deg, #D2D2D7 27.5%, #A4A3AA 87.08%);
+        @include font-148;
+        background: linear-gradient(92deg, #D2D2D7 27.5%, #A4A3AA 87.08%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 84px;
+    }
+
+    &-cards {
+        .feature-left {
+            width: 440px;
+            height: 100%;
+            padding-left: 60px;
+            .card-title {
+                span {
+                    font-size: 177px;
+                    line-height: 110%;
+                    background: linear-gradient(181deg, #FFF 15.23%, rgba(5, 6, 16, 0.00) 83.82%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+            p{
+                @include font-20;
+                margin-bottom: 56px;
+            }
+
+        }
+    }
+}
+.card2{
+  margin-bottom: 56px;
+  border-bottom: 1px solid #3E4962;
+}
+.card3 , .card2{
+    width: 680px;
+    height: 400px;
+    padding-left: 60px;
+    gap: 32px;
+    .card-title {
+        span {
+            font-size: 177px;
+            line-height: 110%;
+            background: linear-gradient(181deg, #FFF 15.23%, rgba(5, 6, 16, 0.00) 83.82%);
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            margin-bottom: 84px;
-      
+        }
     }
+    p{
+        @include font-20;
+        margin-bottom: 56px;
+    }
+
 }
