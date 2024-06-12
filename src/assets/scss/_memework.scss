@@ -1,9 +1,88 @@
 .work {
+    .workbg{
+        width: 706px ;
+        height: 700px;
+        bottom: -10px;
+        img{
+            border-radius: 0 0 0 16px;
+        }
+    }
+    .workbg2 {
+        right: 75px;
+        bottom: -8%;
+        width: 430px;
+        height: 500px;
+        img{
+            border-radius: 0 0 16px 0;
+        }
+    }
     &-wrapper {
         border-radius: 32px;
         border: 1px solid #060813;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(153, 153, 153, 0.04) 100%);
         backdrop-filter: blur(14.5px);
         padding: 90px 84px 119px 90px;
+        margin-bottom: 170px;
+
+        .work-heading {
+            margin-bottom: 107px;
+        }
+
+        .work-title {
+            h2 {
+                opacity: 0.9;
+                background: linear-gradient(91deg, #FFF 11.32%, #A4A3AA 87.11%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+
+        .work-des {
+            p {
+                @include font-24;
+            }
+        }
+
+        &-cards {
+            .work-item {
+                &-card {
+                    border-radius: 16px;
+                    border: 1px solid #3E4962;
+                    background: rgba(188, 165, 255, 0.02);
+                    backdrop-filter: blur(8.5px);
+                    padding: 36px 78px 69px 24px;
+                    width: 426px;
+                    height: 310px !important;
+                    // height: 100%;
+                    &::after{
+                        content:  "";
+                        position: absolute;
+                        z-index: 2;
+                        width: 80px;
+                        height: 80px;
+                        background-color: #3E8AF5;
+                        right: 51px;
+                        bottom: 30px;
+                        filter: blur(70px);
+                    }
+                    h4{
+                        margin-bottom: 32px;
+                    }
+                    p{
+                        @include font-16;
+                    }
+                    .cardimg{
+                        right: -15px;
+                        bottom: 0px;
+                        width: 150px;
+                        height: 130px;
+                        
+                    }
+
+                }
+            }
+        }
+
     }
 }

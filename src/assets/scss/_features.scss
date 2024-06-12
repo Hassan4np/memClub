@@ -1,0 +1,11 @@
+.feature {
+    &-title {
+            @include font-148 ;
+            background:  linear-gradient(92deg, #D2D2D7 27.5%, #A4A3AA 87.08%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 84px;
+      
+    }
+}
