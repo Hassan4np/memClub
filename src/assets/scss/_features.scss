@@ -10,10 +10,24 @@
     }
 
     &-cards {
+        &::before {
+            content:  "";
+            position: absolute;
+            z-index: 1;
+            height: 100%;
+            width: 1px;
+            background-color: #29334A;
+            top: -77px;
+            left: 45.5%;
+            // transform: translateX(-50%);
+
+        }
         .feature-left {
             width: 440px;
             height: 100%;
             padding-left: 60px;
+           
+        
             .card-title {
                 span {
                     font-size: 177px;

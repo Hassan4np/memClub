@@ -11,7 +11,7 @@ export default function Feature() {
         </Row>
         <Row className="justify-content-center">
           <Col xs={12} xl={10}>
-            <div className="feature-cards d-md-flex justify-content-between">
+            <div className="feature-cards d-md-flex justify-content-between position-relative z-n1 align-items-center">
               <div className="feature-left">
                 <div className="card-title">
                   <span>01</span>
@@ -43,7 +43,7 @@ export default function Feature() {
                   </a>
                 </div>
               </div>
-              <div className="feature-right">
+              <div className="feature-right ">
                 <div className="card2 d-flex ">
                   <div className="card-title">
                     <span>02</span>
