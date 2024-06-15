@@ -1,4 +1,22 @@
 .footer {
+     .footerimg{
+        width: 381px;
+        height: 381px;
+        top: 0;
+        left: 35%;
+        top: -25%;
+     }
+     &::before{
+        content: "";
+        position: absolute;
+        z-index: -3;
+        width: 300px;
+        height: 300px;
+        left: 40%;
+        top: -39%;
+        background-color: #126BE8;
+        filter: blur(250px);
+     }
     &-content{
         border-radius: 22px;
         background: radial-gradient(222.96% 136.71% at 100% 102.95%, rgba(65, 128, 249, 0.08) 0%, rgba(130, 141, 244, 0.06) 100%);

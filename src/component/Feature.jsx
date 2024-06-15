@@ -1,8 +1,9 @@
 import { Col, Container, Row } from "react-bootstrap";
+import featureimg from "../assets/img/featureimg.png"
 
 export default function Feature() {
   return (
-    <div className="feature">
+    <div className="feature position-relative z-0">
       <Container>
         <Row>
           <Col xs={12} className="text-center">
@@ -12,6 +13,7 @@ export default function Feature() {
         <Row className="justify-content-center">
           <Col xs={12} xl={10}>
             <div className="feature-cards d-md-flex justify-content-between position-relative z-n1 align-items-center">
+              <div className="position-absolute z-1 feature-img"><img src={featureimg} alt="" /></div>
               <div className="feature-left">
                 <div className="card-title">
                   <span>01</span>

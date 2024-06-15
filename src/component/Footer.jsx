@@ -4,10 +4,12 @@ import logo from "../assets/img/logo.png"
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
+import footerimg from "../assets/img/footer-img.png";
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <div className="footer position-relative z-0">
+      <div className="position-absolute z-n1 footerimg"><img src={footerimg} alt="" /></div>
       <Container>
       <div className="footer-content">
         <div className="d-flex footer-content-text ">
